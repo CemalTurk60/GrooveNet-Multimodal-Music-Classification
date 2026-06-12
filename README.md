@@ -1,6 +1,6 @@
 # GrooveNet: Çok Katmanlı Müzik Analizi ve Tür Sınıflandırma Sistemi
 
-**Hazırlayan:** Cemalettin Türk
+**Hazırlayan:** Cemalettin Türk    
 **Bölüm:** Yönetim Bilişim Sistemleri  
 **Proje Türü:** Bitirme Projesi / Veri Analizi Uygulaması  
 **Tarih:** Haziran 2026
