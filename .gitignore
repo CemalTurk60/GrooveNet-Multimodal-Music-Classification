@@ -1,0 +1,58 @@
+# ──────────────────────────────────────────────────────────────
+#  GrooveNet — .gitignore
+# ──────────────────────────────────────────────────────────────
+
+# ── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Sanal Ortam ────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Veri Dosyaları (büyük, repo'ya eklenmemeli) ───────────────
+data/raw_audio/*
+data/spectrograms/*
+data/augmented/*
+data/processed/*
+!data/**/.gitkeep
+
+# ── Veritabanı ─────────────────────────────────────────────────
+db/*.db
+db/*.db-journal
+db/*.db-wal
+!db/.gitkeep
+
+# ── Model Dosyaları (büyük, repo'ya eklenmemeli) ──────────────
+models/checkpoints/*
+models/exported/*
+!models/**/.gitkeep
+
+# ── Loglar ─────────────────────────────────────────────────────
+logs/*
+!logs/.gitkeep
+
+# ── Jupyter Notebook ──────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDE / Editör ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── İşletim Sistemi ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Raporlar (isteğe bağlı — eğer dışa aktarıyorsan kaldır) ──
+reports/figures/*
+!reports/figures/.gitkeep
